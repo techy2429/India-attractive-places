@@ -52,5 +52,6 @@ function ninthplace() {
     speechSynthesis.speak(i);
 }
 function back(){
-    speechSynthesis.cancel()
+    document.querySelector("#back").href = "index.html";
+    speechSynthesis.cancel();
 }
